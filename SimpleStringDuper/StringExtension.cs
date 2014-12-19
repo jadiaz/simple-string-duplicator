@@ -10,7 +10,18 @@ namespace SimpleStringDuper
     {
         public static string Duplicate(this String str)
         {
-            return string.Empty;
+            // check parameter is available
+            if (String.IsNullOrEmpty(str)) throw new ArgumentNullException("str");
+
+            // build duplicated string of characters
+            StringBuilder sb = new StringBuilder();
+            foreach (var chr in str.ToCharArray())
+            {
+                sb.Append(chr.ToString());
+                sb.Append(chr.ToString());
+            }
+
+            return sb.ToString();
         }
     }
 }
