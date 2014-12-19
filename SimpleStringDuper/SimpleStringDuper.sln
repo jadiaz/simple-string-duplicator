@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleStringDuper", "Simple
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleStringDuper.Tests", "..\SimpleStringDuper.Tests\SimpleStringDuper.Tests.csproj", "{51C3027D-C76C-4131-B6E7-8AAA8F35527A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringDuplicatorDemoApp", "StringDuplicatorDemoApp\StringDuplicatorDemoApp.csproj", "{DAFD4BEB-25A9-4088-AD77-9631A6A04947}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{51C3027D-C76C-4131-B6E7-8AAA8F35527A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51C3027D-C76C-4131-B6E7-8AAA8F35527A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51C3027D-C76C-4131-B6E7-8AAA8F35527A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAFD4BEB-25A9-4088-AD77-9631A6A04947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAFD4BEB-25A9-4088-AD77-9631A6A04947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAFD4BEB-25A9-4088-AD77-9631A6A04947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAFD4BEB-25A9-4088-AD77-9631A6A04947}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
