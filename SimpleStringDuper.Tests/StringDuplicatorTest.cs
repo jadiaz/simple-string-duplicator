@@ -14,5 +14,36 @@ namespace SimpleStringDuper.Tests
             string expectedString = "tthhiiss  iiss  oonnllyy  aa  tteesstt..";
             Assert.AreEqual(expectedString, str.Duplicate());
         }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentNullException), "string not provided")]
+        public void Test_Duplicate_When_String_Not_Provided()
+        {
+            try
+            {
+                string str = null;
+                str.Duplicate();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentNullException), "string is empty")]
+        public void Test_Duplicate_When_String_Is_Empty()
+        {
+            try
+            {
+                string str = string.Empty;
+                str.Duplicate();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+ 
+        }
     }
 }
